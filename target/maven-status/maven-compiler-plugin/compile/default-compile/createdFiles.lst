@@ -1,0 +1,4 @@
+eu\unicredit\jxp\gateway\ServletInitializer.class
+eu\unicredit\jxp\gateway\GatewayApplication.class
+eu\unicredit\jxp\gateway\Controller.class
+eu\unicredit\jxp\gateway\model\Approvers.class
