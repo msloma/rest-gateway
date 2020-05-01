@@ -19,6 +19,11 @@ public class Controller {
     public Approvers mails(@RequestParam(value = "app", defaultValue = "") String app) {
         return new Approvers(app);
     }
+
+    @GetMapping("/approval/userids")
+    public Approvers userids (@RequestParam(value = "app", defaultValue = "") String app) {
+        return new Approvers(app);
+    }
 }
 
 
